@@ -12,7 +12,7 @@ namespace TesteAPI.Infra
 			if (!optionsBuilder.IsConfigured)
 			{
 				System.Net.ServicePointManager.ServerCertificateValidationCallback = (sender, certificate, chain, sslPolicyErrors) => true;
-				optionsBuilder.UseSqlServer("Server=localhost\\SQLEXPRESS;Database=Sistema;Trusted_Connection=True;Encrypt=false");
+				optionsBuilder.UseSqlServer("Server=localhost\\SQLEXPRESS;Database=LoginSystem;Trusted_Connection=True;Encrypt=false");
 			}
 		}
 		public void ConfigureServices(IServiceCollection services)

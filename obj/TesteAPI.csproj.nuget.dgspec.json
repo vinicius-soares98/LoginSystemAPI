@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vinícius Soares\\Documents\\C# Arquivos\\Aulas VS Community\\TesteAPI\\TesteAPI.csproj": {}
+    "C:\\Users\\Vinícius Soares\\Documents\\C# Arquivos\\apiClone\\TesteAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vinícius Soares\\Documents\\C# Arquivos\\Aulas VS Community\\TesteAPI\\TesteAPI.csproj": {
+    "C:\\Users\\Vinícius Soares\\Documents\\C# Arquivos\\apiClone\\TesteAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vinícius Soares\\Documents\\C# Arquivos\\Aulas VS Community\\TesteAPI\\TesteAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Vinícius Soares\\Documents\\C# Arquivos\\apiClone\\TesteAPI.csproj",
         "projectName": "TesteAPI",
-        "projectPath": "C:\\Users\\Vinícius Soares\\Documents\\C# Arquivos\\Aulas VS Community\\TesteAPI\\TesteAPI.csproj",
+        "projectPath": "C:\\Users\\Vinícius Soares\\Documents\\C# Arquivos\\apiClone\\TesteAPI.csproj",
         "packagesPath": "C:\\Users\\Vinícius Soares\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vinícius Soares\\Documents\\C# Arquivos\\Aulas VS Community\\TesteAPI\\obj\\",
+        "outputPath": "C:\\Users\\Vinícius Soares\\Documents\\C# Arquivos\\apiClone\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Vinícius Soares\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -42,19 +42,31 @@
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[7.0.1, )"
+              "version": "[7.0.11, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.9, )"
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.11, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.9, )"
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.11, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
