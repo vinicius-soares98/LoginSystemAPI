@@ -20,12 +20,7 @@ namespace TesteAPI.Infra
 		public async Task<Usuarios> BuscarPorNome(string usuario)
 		{
 			return await _context.Usuarios.FirstOrDefaultAsync(u => u.usuario == usuario);
-		}
-		public List<Usuarios> Get()
-		{
-			var usuarios = _context.Usuarios.ToList();
-			return usuarios;
-		}
+		}		
 		public void Atualizar(Usuarios usuario)
 		{
 			_context.Usuarios.Update(usuario);

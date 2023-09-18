@@ -15,7 +15,7 @@ namespace TesteAPI.Controllers
 		{
 			_usuariosRepository = usuariosRepository ?? throw new ArgumentNullException();
 		}
-		[Route("cadastro")]
+		[Route("Cadastro")]
 		[HttpPost]
 		public IActionResult Cadastrar(UsuariosViewModel usuariosView)
 		{
@@ -38,7 +38,7 @@ namespace TesteAPI.Controllers
 			}
 			return Ok("Usuário cadastrado com sucesso!");
 		}
-		[Route("login")]
+		[Route("Login")]
 		[HttpPost]
 		public async Task <ActionResult<Usuarios>> Logar(UsuariosViewModel usuariosView)
 		{
@@ -74,12 +74,5 @@ namespace TesteAPI.Controllers
 			return Ok(usuario);
 		}
 
-		[Route("usuarios")]
-		[HttpGet]
-		public IActionResult Get()
-		{ 
-			var usuarios = _usuariosRepository.Get();
-			return Ok(usuarios);
-		}
 	}
 }
